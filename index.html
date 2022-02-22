@@ -50,6 +50,16 @@
           <h1 class="slogan">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="button primary" data-modal-open>Заказать услугу</button>
         </div>
+        <!-- Модальное окно -->
+        <div class="backdrop is-hiden" data-modal>
+          <div class="modal">
+            <button class="modal-close button"  type="button" data-modal-close>
+                <svg class="modal-close icon">
+                  <use href="./images/symbol-defs.svg#icon-close"></use>
+                </svg>
+            </button>
+          </div>
+        </div>
       </section>
       <section class="features">
         <div class="container">
@@ -123,7 +133,7 @@
               <div class="leads">
                 <h3 class="title">Игорь Демьяненко</h3>
                 <p class="description" lang="en">Product Designer</p>
-                <ul ul class="social list">
+                <ul class="social list">
                   <li class="item icon-instagram">
                     <a class="link" href="" aria-label="Instagram">
                       <svg class="icon icon-instagram" width="20px" height="20px">
@@ -160,7 +170,7 @@
               <div class="leads">
                 <h3 class="title">Ольга Репина</h3>
                 <p class="description" lang="en" >Frontend Developer</p>
-                <ul ul class="social list">
+                <ul class="social list">
                   <li class="item icon-instagram">
                     <a class="link" href="" aria-label="Instagram">
                       <svg class="icon icon-instagram" width="20px" height="20px">
@@ -197,7 +207,7 @@
               <div class="leads">
                 <h3 class="title">Николай Тарасов</h3>
                 <p class="description" lang="en">Marketing</p>
-                <ul ul class="social list">
+                <ul class="social list">
                   <li class="item icon-instagram">
                     <a class="link" href="" aria-label="Instagram">
                       <svg class="icon icon-instagram" width="20px" height="20px">
@@ -234,7 +244,7 @@
               <div class="leads">
                 <h3 class="title">Михаил Ермаков</h3>
                 <p class="description" lang="en">UI Designer</p>
-                <ul ul class="social list">
+                <ul class="social list">
                   <li class="item icon-instagram">
                     <a class="link" href="" aria-label="Instagram">
                       <svg class="icon icon-instagram" width="20px" height="20px">
@@ -334,7 +344,7 @@
         </div>
         <div class="actionsosial">
           <p class="action">Присоединяйтесь</p>
-          <ul ul class="social list">
+          <ul class="social list">
             <li class="item icon-instagram">
               <a class="link" href="" aria-label="Instagram">
                 <svg class="icon icon-instagram" width="20px" height="20px">
@@ -367,18 +377,7 @@
         </div>
       </div>
       </footer>
-      <div class="backdrop is-hiden" data-modal>
-        <div class="modal is-hiden">
-          <button class="modal-close button" data-modal-close>
-            <svg class="modal-close icon" >
-              <use href="./images/symbol-defs.svg#icon-close"></use>
-            </svg>
-          </button>
-        </div>
-      </div>
-      <script src="./js/modal.js"></script>
-
-
+      
       <!-- <div>
         <p>Подпишитесь на рассылку</p>
         <form>
@@ -389,8 +388,6 @@
       </form>
       </div>
        -->
-
-
 <!-- 
       <div class="form subscribe">
         <p>Оставьте свои данные, мы вам перезвоним</p>
@@ -419,7 +416,7 @@
       </form>
         
       </div> -->
-      
+      <!-- <script src="./js/modal.js"></script> -->
   </body>
 </html>
 
