@@ -50,8 +50,8 @@
           <h1 class="slogan">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="button primary" data-modal-open>Заказать услугу</button>
         </div>
-        <!-- Модальное окно -->
-        <div class="backdrop is-hiden" data-modal>
+        <!-- Модальное окно ----->
+        <div class="backdrop is-hidden" data-modal>
           <div class="modal">
             <button class="modal-close button"  type="button" data-modal-close>
                 <svg class="modal-close icon">
@@ -375,23 +375,27 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <p class="action subsc">Подпишитесь на рассылку</p>
+          <form class="form subsc">
+            <label class="footer-mail-box">
+              <input class="footer-input" type="email" name="user-mail" placeholder="E-mail" required />
+            </label>
+            <button type="submit" class="button submit">
+              <div>Подписаться</div>
+              <svg class="icon icon-subscribe" width="24px" height="24px">
+                <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
       </footer>
       
-      <!-- <div>
-        <p>Подпишитесь на рассылку</p>
-        <form>
-        <label>
-          <input type="email" name="user-mail" placeholder="E-mail" required/>
-        </label>
-        <button type="submit">Подписаться</button>
-      </form>
-      </div>
-       -->
-<!-- 
-      <div class="form subscribe">
-        <p>Оставьте свои данные, мы вам перезвоним</p>
-        <form name="order-form">
+      
+      <div class="callback">
+        <p class="action callback">Оставьте свои данные, мы вам перезвоним</p>
+        <form name="form callback">
           <label>
           Имя
             <input type="name" name="user-name" required/>
@@ -410,10 +414,10 @@
         </label>
         <label>
            <input type="checkbox" checked name="user-agree" required/>
-           Соглашаюсь с рассылкой п принимаю Условия дговора
-        </label>
-        <button type="submit">Отправить</button>              
+           Соглашаюсь с рассылкой принимаю Условия дговора
+        </label>          
       </form>
+      <button class="callback button" type="submit">Отправить</button>
         
       </div> -->
       <script src="./js/modal.js"></script>
