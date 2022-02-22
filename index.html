@@ -367,15 +367,59 @@
         </div>
       </div>
       </footer>
-      <div class="backdrop" data-modal>
-        <div class="modal">
-          <button class="modal button">
-            <svg>
-              <use></use>
+      <div class="backdrop is-hiden" data-modal>
+        <div class="modal is-hiden">
+          <button class="modal-close button" data-modal-close>
+            <svg class="modal-close icon" >
+              <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg>
           </button>
         </div>
       </div>
       <script src="./js/modal.js"></script>
+
+
+      <!-- <div>
+        <p>Подпишитесь на рассылку</p>
+        <form>
+        <label>
+          <input type="email" name="user-mail" placeholder="E-mail" required/>
+        </label>
+        <button type="submit">Подписаться</button>
+      </form>
+      </div>
+       -->
+
+
+<!-- 
+      <div class="form subscribe">
+        <p>Оставьте свои данные, мы вам перезвоним</p>
+        <form name="order-form">
+          <label>
+          Имя
+            <input type="name" name="user-name" required/>
+        </label>
+        <label>
+          Телефон
+          <input type="tel" name="user-phone" required/>
+        </label><label>
+          Почта
+          <input type="email" name="user-mail" required/>
+        </label>
+        <label>
+          Комментарий
+          <textarea name="user-comment" rows="10" placeholder="Введите текст">
+          </textarea>
+        </label>
+        <label>
+           <input type="checkbox" checked name="user-agree" required/>
+           Соглашаюсь с рассылкой п принимаю Условия дговора
+        </label>
+        <button type="button">Отправить</button>              
+      </form>
+        
+      </div> -->
+      
   </body>
 </html>
+
